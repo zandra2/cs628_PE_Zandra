@@ -41,6 +41,6 @@ npm start
 [Filter() Method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 ### 3. Output
-<img src="./my-app-pe02/movieList.png" alt="resume" width="252" height="300">
+<img src="./public/movieList.png" alt="resume" width="252" height="300">
 
 
