@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  margin: auto 0;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.list {
+  list-style-type: none;
+  text-align: left;
+}
+
+.item {
+  /* padding-bottom: 1rem; */
+  border: 1px solid black;
+  max-width: 200px;
+  padding: 10px;
+  margin: 10px auto
+}
+
+.item:hover {
+  background-color: yellow;
+}
