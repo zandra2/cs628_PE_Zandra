@@ -2,17 +2,23 @@
 
 This project is to create a ToDo task list. Users can add a task description and add each task onto the list.  The list can be deleted as the users complete the task. Users can't add a blank task description onto the list. An error message will raise asking user to input a task description before adding task onto the list of tasks. 
 
-There are four components created in this project, the Button, ToDoList, and ToDoTask. 
-+**App** - manages the state and provides the core logic of adding and deleting tasks. 
-+**ToDoList** - acts as a middle layer, looping through the tasks and rendering each one with a ToDoTask component.
-+**ToDoTask** - a child component of ToDoList that focuses solely on displaying a single task and handling its deletion.
-+**Button** - for reusability that encapsulates the behavior and styling of buttons used across the app.
+There are four components created in this project, the Button, ToDoList, and ToDoTask.
+
+**App** - manages the state and provides the core logic of adding and deleting tasks. 
+
+**ToDoList** - acts as a middle layer, looping through the tasks and rendering each one with a ToDoTask component.
+
+**ToDoTask** - a child component of ToDoList that focuses solely on displaying a single task and handling its deletion.
+
+**Button** - for reusability that encapsulates the behavior and styling of buttons used across the app.
 
 
-Features:
--When the cursor is hovered over the button (add/delete), it will changes color.  
+**Features:**
+1. When the cursor is hovered over the button (add/delete), it will changes color.  
 
-Click on the _Add task_ button without a task description will raise an error message and no blank task will get added onto the list. 
+2. Click on the _Add task_ button without a task description will raise an error message and no blank task will get added onto the list. 
+
+**Potential Use:**
 
 This project assignment can be a component of a larger app, like Task Management, etc. Where the users can add, delete, view or assign tasks to a team, etc. 
 
@@ -67,8 +73,8 @@ deactivate
 
 ### 3. Output
 **Todo List App**
-<img src="../public/todo_list.png" alt="resume" width="252" height="300">
+<img src="../public/todo_list.png" alt="resume" width="700" height="350">
 
-**Error Message**
-<img src="../public/error_msg.png" alt="resume" width="252" height="300">
+**Handling Empty Task (error Message)**
+<img src="../public/error_msg.png" alt="resume" width="700" height="350">
 
