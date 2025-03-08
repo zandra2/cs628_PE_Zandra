@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../public/bg.png');
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: white;
+}
+
+.nav-container{
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 auto;
+    padding: 15px 50px;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #28a745;
+}
+
+.nav-links li {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.recipe-list li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.recipe-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.recipe-list a:hover {
+    text-decoration: underline;
+}
+
+.recipe-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.recipe-form input,
+.recipe-form textarea {
+    width: 100%;
+    padding: 15px 0px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.recipe-form button, .home-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recipe-form button:hover, .home-btn:hover {
+    background-color: #218838;
+}
+
+/* BROWSER BUTTON */
+.browser-btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;    
+}
+
+/* EDIT RECIPE */
+.edit-btn {
+    cursor: pointer;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 14px;
+    
+}
+
+.edit-recipe-container {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 8px;
+}
+
+.edit-recipe-container form textarea,
+.edit-recipe-container form input {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 15px 0px;
+    
+}
+
+.edit-recipe-container form button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    font-size: 14px;
+    color: white;
+}
+
+/* DELETE BUTTON */
+.actions {
+    display: flex;
+    gap: 15px;
+}
+
+.delete-btn {
+
+    padding: 8px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
